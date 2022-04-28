@@ -3,7 +3,7 @@ module "network" {
     version = "~> 3.0"
 
     project_id   = var.project
-    network_name = "vpcat"
+    network_name = "vpc"
     routing_mode = "GLOBAL"
 
     subnets = [
